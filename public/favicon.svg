@@ -1,0 +1,73 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="svl-grad-top" x1="20" y1="30" x2="180" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff7a00" />
+      <stop offset="50%" stop-color="#e91e63" />
+      <stop offset="100%" stop-color="#9c27b0" />
+    </linearGradient>
+    <linearGradient id="svl-grad-right" x1="180" y1="30" x2="180" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9c27b0" />
+      <stop offset="50%" stop-color="#673ab7" />
+      <stop offset="100%" stop-color="#3f51b5" />
+    </linearGradient>
+    <linearGradient id="svl-grad-bottom" x1="180" y1="170" x2="20" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3f51b5" />
+      <stop offset="50%" stop-color="#00bcd4" />
+      <stop offset="100%" stop-color="#009688" />
+    </linearGradient>
+    <linearGradient id="svl-grad-left" x1="20" y1="170" x2="20" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4caf50" />
+      <stop offset="50%" stop-color="#ffc107" />
+      <stop offset="100%" stop-color="#ff7a00" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagon Outer Paths with Multi-Color Ribbon Gradients -->
+  <path
+    d="M100 8 L178 52 L178 148 L100 192 L22 148 L22 52 Z"
+    fill="none"
+    stroke="url(#svl-grad-top)"
+    stroke-width="24"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+  <path
+    d="M100 8 L178 52 L178 148"
+    fill="none"
+    stroke="url(#svl-grad-right)"
+    stroke-width="24"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M178 148 L100 192 L22 148"
+    fill="none"
+    stroke="url(#svl-grad-bottom)"
+    stroke-width="24"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M22 148 L22 52 L100 8"
+    fill="none"
+    stroke="url(#svl-grad-left)"
+    stroke-width="24"
+    stroke-linejoin="round"
+  />
+
+  <!-- Crisp White Center Backing -->
+  <polygon
+    points="100,28 160,62 160,138 100,172 40,138 40,62"
+    fill="#ffffff"
+  />
+
+  <!-- Bold Navy SVL Logo Typography -->
+  <text
+    x="100"
+    y="118"
+    text-anchor="middle"
+    fill="#1e293b"
+    font-size="54"
+    font-weight="900"
+    font-family="system-ui, -apple-system, sans-serif"
+    letter-spacing="-1.5"
+  >SVL</text>
+</svg>
