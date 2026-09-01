@@ -108,11 +108,14 @@ export const SVLLogo: React.FC<SVLLogoProps> = ({
 
       {showText && (
         <div className="flex flex-col text-left">
-          <div className="flex items-center gap-1.5">
-            <span className="text-lg sm:text-xl font-black tracking-tight text-slate-900 font-heading">
+          <div className="flex items-center gap-1.5 leading-none">
+            <span className="text-base sm:text-xl font-black tracking-tight text-slate-900 font-heading">
               Smart View <span className="text-indigo-600">Labs</span>
             </span>
           </div>
+          <span className="text-[9px] sm:text-[10px] font-semibold text-slate-500 tracking-tight mt-0.5 leading-tight">
+            Next-Gen Digital Solutions & Innovation
+          </span>
         </div>
       )}
     </div>
